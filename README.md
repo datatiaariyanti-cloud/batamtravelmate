@@ -526,56 +526,75 @@
 
                     </div>
 
-                    <!-- Live Summary & WhatsApp Button (Right) -->
-                    <div class="lg:col-span-5 bg-charcoal text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-6 sticky top-28">
-                        <h3 class="text-lg font-bold font-serif-title border-b border-gray-700 pb-3 flex items-center justify-between">
-                            <span>Summary & Estimate</span>
-                            <span class="text-xs font-normal text-sage bg-sage/20 px-2 py-0.5 rounded">Live Calc</span>
-                        </h3>
+                   <!-- Live Summary & WhatsApp Button (Right) -->
+<div class="lg:col-span-5 bg-charcoal text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-6 sticky top-28">
+    <h3 class="text-lg font-bold font-serif-title border-b border-gray-700 pb-3 flex items-center justify-between">
+        <span>Summary & Transfer Details</span>
+        <span class="text-xs font-normal text-sage bg-sage/20 px-2 py-0.5 rounded">Live Calc</span>
+    </h3>
 
-                        <div class="space-y-3 text-sm text-gray-300">
-                            <div class="flex justify-between">
-                                <span>Rate Per Pax:</span>
-                                <span>IDR 1,000,000</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span>Number of Guests:</span>
-                                <span id="summaryPaxText" class="font-semibold text-white">2 Pax</span>
-                            </div>
-                            <div class="flex justify-between text-xs text-gray-400">
-                                <span>Est. Exchange Rate:</span>
-                                <span>1 SGD ≈ IDR 11,800</span>
-                            </div>
-                            <div class="border-t border-gray-700 pt-3 flex justify-between items-baseline">
-                                <span class="font-semibold text-white">Total Amount (IDR):</span>
-                                <span id="summaryTotalIDR" class="text-2xl font-bold font-serif-title text-terracotta">IDR 2,000,000</span>
-                            </div>
-                            <div class="flex justify-between text-xs text-sage font-medium">
-                                <span>Approximate SGD:</span>
-                                <span id="summaryTotalSGD">~ SGD 170.00 SGD</span>
-                            </div>
-                        </div>
-
-                        <div class="p-4 bg-gray-800/80 rounded-xl text-xs text-gray-300 space-y-1 border border-gray-700">
-                            <div class="font-semibold text-white flex items-center gap-1.5">
-                                <i class="fa-solid fa-shield-halved text-sage"></i> Payment & Deposit Notice
-                            </div>
-                            <p>30% deposit is required upon booking confirmation to hold your private weekend slot. Remaining paid on arrival.</p>
-                        </div>
-
-                        <button onclick="sendToWhatsapp()" class="w-full py-4 bg-terracotta hover:bg-terracottaDark text-white font-semibold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
-                            <i class="fa-brands fa-whatsapp text-xl"></i>
-                            <span>Send Booking Request</span>
-                        </button>
-
-                        <p class="text-[11px] text-center text-gray-400">
-                            Clicking will format your details and open WhatsApp directly.
-                        </p>
-                    </div>
-
-                </div>
-
+    <div class="space-y-3 text-sm text-gray-300">
+        <div class="flex justify-between">
+            <span>Rate Per Pax:</span>
+            <span>IDR 1,000,000</span>
+        </div>
+        <div class="flex justify-between">
+            <span>Jumlah Tamu:</span>
+            <span id="summaryPaxText" class="font-semibold text-white">2 Pax</span>
+        </div>
+        
+        <div class="border-t border-gray-700 pt-3 space-y-1">
+            <div class="flex justify-between items-baseline">
+                <span class="font-semibold text-white">Total Harga (IDR):</span>
+                <span id="summaryTotalIDR" class="text-xl font-bold font-serif-title text-terracotta">IDR 2,000,000</span>
             </div>
+            <div class="flex justify-between text-xs text-gray-400">
+                <span>Estimasi (SGD):</span>
+                <span id="summaryTotalSGD">~ SGD 169.49</span>
+            </div>
+            <div class="flex justify-between text-xs text-gray-400">
+                <span>Estimasi (MYR):</span>
+                <span id="summaryTotalMYR">~ MYR 555.56</span>
+            </div>
+        </div>
+
+        <!-- Rincian Transfer Di Awal (DP 30%) -->
+        <div class="bg-gray-800/90 p-4 rounded-xl border border-terracotta/40 space-y-2 mt-4">
+            <div class="text-xs font-bold text-terracotta uppercase tracking-wider flex items-center gap-1.5">
+                <i class="fa-solid fa-wallet"></i> Transfer Di Awal (DP 30% Deposit)
+            </div>
+            <div class="text-xs text-gray-300 space-y-1">
+                <div class="flex justify-between">
+                    <span>Deposit (IDR):</span>
+                    <strong id="dpIDR" class="text-white">IDR 600,000</strong>
+                </div>
+                <div class="flex justify-between">
+                    <span>Deposit (SGD):</span>
+                    <strong id="dpSGD" class="text-sage">~ SGD 50.85</strong>
+                </div>
+                <div class="flex justify-between">
+                    <span>Deposit (MYR):</span>
+                    <strong id="dpMYR" class="text-sage">~ MYR 166.67</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-3 bg-gray-800/50 rounded-xl text-xs text-gray-400 space-y-1 border border-gray-700">
+        <p class="flex items-center gap-1.5 text-sage">
+            <i class="fa-solid fa-shield-halved"></i> Pembayaran DP dilakukan di awal via Transfer / PayNow / Wise untuk mengunci slot weekend. Sisa pelunasan dibayar saat kedatangan.
+        </p>
+    </div>
+
+    <button onclick="sendToWhatsapp()" class="w-full py-4 bg-terracotta hover:bg-terracottaDark text-white font-semibold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
+        <i class="fa-brands fa-whatsapp text-xl"></i>
+        <span>Kirim Booking & Transfer DP via WA</span>
+    </button>
+
+    <p class="text-[11px] text-center text-gray-400">
+        Format rincian data & info transfer akan otomatis terkirim ke WhatsApp.
+    </p>
+</div>
         </section>
 
         <!-- FAQ & Data Privacy Guarantee -->
@@ -653,61 +672,99 @@
     </footer>
 
     <!-- JavaScript Logic for Price Calculator & WhatsApp Generation -->
-    <script>
-        const IDR_PER_PAX = 1000000;
-        const SGD_RATE = 11800; // Estimated exchange rate 1 SGD = 11,800 IDR
+<script>
+    // Konstanta Harga & Kurs Mata Uang (IDR, SGD, MYR)
+    const IDR_PER_PAX = 1000000;
+    const RATE_SGD = 14143; // 1 SGD = 14,143 IDR
+    const RATE_MYR = 4461;  // 1 MYR = 4,461 IDR
+    const DEPOSIT_PERCENTAGE = 0.30; // DP 30% di awal
 
-        function calculatePrice() {
-            const pax = parseInt(document.getElementById('inputPax').value);
-            const totalIDR = pax * IDR_PER_PAX;
-            const totalSGD = (totalIDR / SGD_RATE).toFixed(2);
+    function calculatePrice() {
+        const pax = parseInt(document.getElementById('inputPax').value) || 2;
+        
+        // Total Harga
+        const totalIDR = pax * IDR_PER_PAX;
+        const totalSGD = (totalIDR / RATE_SGD).toFixed(2);
+        const totalMYR = (totalIDR / RATE_MYR).toFixed(2);
 
-            document.getElementById('summaryPaxText').innerText = pax + ' Guests';
-            document.getElementById('summaryTotalIDR').innerText = 'IDR ' + totalIDR.toLocaleString('id-ID');
-            document.getElementById('summaryTotalSGD').innerText = '~ SGD ' + totalSGD + ' SGD';
+        // Jumlah DP 30% Transfer di Awal
+        const dpIDR = totalIDR * DEPOSIT_PERCENTAGE;
+        const dpSGD = (dpIDR / RATE_SGD).toFixed(2);
+        const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
+
+        // Update Ringkasan UI
+        document.getElementById('summaryPaxText').innerText = pax + ' Pax';
+        document.getElementById('summaryTotalIDR').innerText = 'IDR ' + totalIDR.toLocaleString('id-ID');
+        document.getElementById('summaryTotalSGD').innerText = '~ SGD ' + totalSGD;
+        document.getElementById('summaryTotalMYR').innerText = '~ MYR ' + totalMYR;
+
+        // Update Informasi DP Transfer
+        document.getElementById('dpIDR').innerText = 'IDR ' + dpIDR.toLocaleString('id-ID');
+        document.getElementById('dpSGD').innerText = '~ SGD ' + dpSGD;
+        document.getElementById('dpMYR').innerText = '~ MYR ' + dpMYR;
+    }
+
+    function sendToWhatsapp() {
+        const name = document.getElementById('inputName').value.trim();
+        const passport = document.getElementById('inputPassport').value.trim();
+        const nationality = document.getElementById('inputNationality').value.trim();
+        const whatsapp = document.getElementById('inputWhatsapp').value.trim();
+        const pickup = document.getElementById('inputPickup').value.trim();
+        const emergency = document.getElementById('inputEmergency').value.trim();
+        const notes = document.getElementById('inputNotes').value.trim();
+        const pax = document.getElementById('inputPax').value;
+        const day = document.getElementById('inputDay').value;
+
+        // Validasi input wajib
+        if (!name || !passport || !nationality || !whatsapp || !pickup) {
+            alert('Mohon lengkapi semua kolom wajib (Nama, No. Paspor, Kewarganegaraan, WhatsApp, & Lokasi Penjemputan).');
+            return;
         }
 
-        function sendToWhatsapp() {
-            const name = document.getElementById('inputName').value.trim();
-            const passport = document.getElementById('inputPassport').value.trim();
-            const nationality = document.getElementById('inputNationality').value.trim();
-            const whatsapp = document.getElementById('inputWhatsapp').value.trim();
-            const pickup = document.getElementById('inputPickup').value.trim();
-            const emergency = document.getElementById('inputEmergency').value.trim();
-            const notes = document.getElementById('inputNotes').value.trim();
-            const pax = document.getElementById('inputPax').value;
-            const day = document.getElementById('inputDay').value;
+        const totalIDR = pax * IDR_PER_PAX;
+        const totalSGD = (totalIDR / RATE_SGD).toFixed(2);
+        const totalMYR = (totalIDR / RATE_MYR).toFixed(2);
 
-            if (!name || !passport || !nationality || !whatsapp || !pickup) {
-                alert('Please fill in all mandatory fields (Name, Passport, Nationality, WhatsApp, Pick-up Point).');
-                return;
-            }
+        const dpIDR = totalIDR * DEPOSIT_PERCENTAGE;
+        const dpSGD = (dpIDR / RATE_SGD).toFixed(2);
+        const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
 
-            const totalIDR = (pax * IDR_PER_PAX).toLocaleString('id-ID');
+        // Format Pesan WhatsApp
+        const message = 
+`*[PEMESANAN TOUR - BATAM TRAVELMATE]*\n` +
+`----------------------------------------\n` +
+`*DATA PEMESAN:* \n` +
+`• Nama Lengkap: ${name}\n` +
+`• No. Paspor: ${passport}\n` +
+`• Kewarganegaraan: ${nationality}\n` +
+`• No. WhatsApp: ${whatsapp}\n` +
+`• Hari Pilihan: ${day}\n` +
+`• Jumlah Peserta: ${pax} Pax\n` +
+`• Lokasi Penjemputan: ${pickup}\n` +
+`• Kontak Darurat: ${emergency || '-'}\n` +
+`• Permintaan Khusus/Catatan: ${notes || '-'}\n\n` +
+`*RINCIAN BIAYA & TOTAL:* \n` +
+`• Total Paket (IDR): IDR ${totalIDR.toLocaleString('id-ID')}\n` +
+`• Estimasi (SGD): SGD ${totalSGD}\n` +
+`• Estimasi (MYR): MYR ${totalMYR}\n\n` +
+`*INFO TRANSFER DP DI AWAL (30%):*\n` +
+`• DP Rupiah (IDR): *IDR ${dpIDR.toLocaleString('id-ID')}*\n` +
+`• DP Dollar SG (SGD): *SGD ${dpSGD}*\n` +
+`• DP Ringgit MY (MYR): *MYR ${dpMYR}*\n` +
+`----------------------------------------\n` +
+`Halo Kak Tia & Ghea, saya ingin konfirmasi reservasi paket tour ini. Mohon info nomor rekening / PayNow untuk transfer DP di awal. Terima kasih!`;
 
-            // Format message
-            const message = `*[BOOKING REQUEST - BATAM TRAVELMATE]*\n\n` +
-                `*Lead Guest Name:* ${name}\n` +
-                `*Passport No:* ${passport}\n` +
-                `*Nationality:* ${nationality}\n` +
-                `*WhatsApp:* ${whatsapp}\n` +
-                `*Preferred Day:* ${day}\n` +
-                `*Guests Count:* ${pax} Pax\n` +
-                `*Pick-Up Location:* ${pickup}\n` +
-                `*Emergency Contact:* ${emergency || '-'}\n` +
-                `*Special Requests / Notes:* ${notes || '-'}\n\n` +
-                `*Estimated Total:* IDR ${totalIDR} (~ SGD ${(pax * IDR_PER_PAX / SGD_RATE).toFixed(2)})\n\n` +
-                `Hi Tia & Ghea, I would like to book this private tour weekend escape!`;
+        const encodedMessage = encodeURIComponent(message);
+        const targetPhoneNumber = "6287867293391"; // Nomor WhatsApp Tujuan Anda
 
-            const encodedMessage = encodeURIComponent(message);
-            // WhatsApp link redirection
-            window.open(`https://wa.me/?text=${encodedMessage}`, '_blank');
-        }
+        // Redirection ke WA Anda
+        window.open(`https://wa.me/${targetPhoneNumber}?text=${encodedMessage}`, '_blank');
+    }
 
-        // Initialize calculation on page load
-        window.onload = function() {
-            calculatePrice();
-        };
-    </script>
+    // Jalankan kalkulasi otomatis saat halaman dimuat
+    window.onload = function() {
+        calculatePrice();
+    };
+</script>
 </body>
 </html>
