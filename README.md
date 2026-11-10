@@ -710,12 +710,12 @@
             const pax = document.getElementById('inputPax').value;
 
             if (!dateVal) {
-                alert('Mohon pilih Tanggal Reservasi terlebih dahulu.');
+                alert('Please select the reservation date first');
                 return;
             }
 
             if (!name || !passport || !nationality || !whatsapp || !pickup) {
-                alert('Mohon lengkapi semua kolom wajib (Nama, No. Paspor, Kewarganegaraan, WhatsApp, & Lokasi Penjemputan).');
+                alert('Please fill in all mandatory fields (Name, Passport Number, Nationality, WhatsApp, & Pick-up Location).');
                 return;
             }
 
@@ -750,7 +750,7 @@
 `• DP Dollar SG (SGD): *SGD ${dpSGD}*\n` +
 `• DP Ringgit MY (MYR): *MYR ${dpMYR}*\n` +
 `----------------------------------------\n` +
-`Halo Kak Tia & Ghea, saya ingin mengonfirmasi reservasi tour untuk tanggal *${formattedDate}*. Mohon kirimkan detail rekening/PayNow untuk pembayaran DP. Terima kasih!`;
+`Halo Kak Tia & Ghea, I would like to confirm my tour reservation for ${formattedDate}. Please send over the bank account or PayNow details for the deposit payment. Thank you!`;
 
             const encodedMessage = encodeURIComponent(message);
             
