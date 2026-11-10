@@ -560,7 +560,7 @@
 
                         <div class="p-3 bg-gray-800/50 rounded-xl text-xs text-gray-400 space-y-1 border border-gray-700">
                             <p class="flex items-center gap-1.5 text-sage">
-                                <i class="fa-solid fa-shield-halved"></i> Pembayaran DP dilakukan di awal via Transfer / PayNow / Wise untuk mengunci slot weekend. Sisa pelunasan dibayar saat kedatangan.
+                                <i class="fa-solid fa-shield-halved"></i>The down payment (DP) must be made in advance via Bank Transfer, PayNow to secure your weekend slot. The remaining balance is payable on H-1 (one day before the tour).
                             </p>
                         </div>
 
