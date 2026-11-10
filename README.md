@@ -752,7 +752,7 @@
 `• DP Dollar SG (SGD): *SGD ${dpSGD}*\n` +
 `• DP Ringgit MY (MYR): *MYR ${dpMYR}*\n` +
 `----------------------------------------\n` +
-`Halo Kak Tia & Ghea, saya ingin konfirmasi reservasi paket tour ini. Mohon info nomor rekening / PayNow untuk transfer DP di awal. Terima kasih!`;
+`Hello Kak Tia & Ghea, I would like to confirm the reservation for this tour package. Please send over your bank account or PayNow details for the deposit payment. Thank you`;
 
         const encodedMessage = encodeURIComponent(message);
         const targetPhoneNumber = "6287867293391"; // Nomor WhatsApp Tujuan Anda
