@@ -755,10 +755,10 @@
 `Hello Kak Tia & Ghea, I would like to confirm the reservation for this tour package. Please send over your bank account or PayNow details for the deposit payment. Thank you`;
 
         const encodedMessage = encodeURIComponent(message);
-        const targetPhoneNumber = "6287867293391"; // Nomor WhatsApp Tujuan Anda
+        const targetNumber = "6287867293391";; // Nomor WhatsApp Tujuan Anda
 
         // Redirection ke WA Anda
-        window.open(`https://wa.me/${targetPhoneNumber}?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/${targetNumber}?text=${encodedMessage}`, '_blank');
     }
 
     // Jalankan kalkulasi otomatis saat halaman dimuat
