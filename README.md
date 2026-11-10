@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="id" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,6 @@
         .font-serif-title {
             font-family: 'Playfair Display', serif;
         }
-        /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -96,7 +95,6 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                     
                     <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                        <!-- Badges -->
                         <div class="flex flex-wrap justify-center lg:justify-start gap-2.5">
                             <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-sageLight text-sage border border-sage/20">
                                 <i class="fa-regular fa-calendar-check text-xs"></i> Weekend Only (Sat & Sun)
@@ -135,7 +133,6 @@
                         </div>
                     </div>
 
-                    <!-- Hero Visual Card / Mock Banner -->
                     <div class="lg:col-span-5 relative">
                         <div class="relative mx-auto max-w-md lg:max-w-none">
                             <div class="absolute -top-4 -left-4 w-72 h-72 bg-sage/20 rounded-full filter blur-3xl opacity-70"></div>
@@ -177,7 +174,6 @@
         <!-- About Us & Core Promise -->
         <section id="about" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                
                 <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <span class="text-terracotta uppercase text-xs tracking-widest font-bold">Meet Your Travel Mates</span>
                     <h2 class="text-3xl sm:text-4xl font-serif-title font-bold text-charcoal">
@@ -189,7 +185,6 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Feature 1 -->
                     <div class="bg-cream p-8 rounded-3xl border border-warmSand hover:shadow-lg transition-all space-y-4">
                         <div class="w-14 h-14 rounded-2xl bg-terracotta/10 text-terracotta flex items-center justify-center text-2xl font-bold">
                             <i class="fa-solid fa-clock-rotate-left"></i>
@@ -200,7 +195,6 @@
                         </p>
                     </div>
 
-                    <!-- Feature 2 -->
                     <div class="bg-cream p-8 rounded-3xl border border-warmSand hover:shadow-lg transition-all space-y-4">
                         <div class="w-14 h-14 rounded-2xl bg-sage/10 text-sage flex items-center justify-center text-2xl font-bold">
                             <i class="fa-solid fa-heart"></i>
@@ -211,7 +205,6 @@
                         </p>
                     </div>
 
-                    <!-- Feature 3 -->
                     <div class="bg-cream p-8 rounded-3xl border border-warmSand hover:shadow-lg transition-all space-y-4">
                         <div class="w-14 h-14 rounded-2xl bg-terracotta/10 text-terracotta flex items-center justify-center text-2xl font-bold">
                             <i class="fa-solid fa-sliders"></i>
@@ -222,18 +215,15 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </section>
 
         <!-- Pricing & Package Details -->
         <section id="package" class="py-20 bg-warmSand/40">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                
                 <div class="bg-white rounded-3xl border border-warmSand shadow-xl overflow-hidden">
                     <div class="grid grid-cols-1 lg:grid-cols-12">
                         
-                        <!-- Left Package Promo Panel -->
                         <div class="lg:col-span-5 bg-charcoal text-white p-8 sm:p-12 flex flex-col justify-between">
                             <div class="space-y-6">
                                 <span class="bg-terracotta text-white text-xs uppercase font-bold tracking-widest px-3 py-1 rounded-full inline-block">
@@ -268,9 +258,7 @@
                             </div>
                         </div>
 
-                        <!-- Right Inclusions & Exclusions -->
                         <div class="lg:col-span-7 p-8 sm:p-12 space-y-8">
-                            
                             <div>
                                 <h4 class="text-lg font-bold font-serif-title text-charcoal mb-4 flex items-center gap-2">
                                     <i class="fa-solid fa-circle-check text-sage text-xl"></i>
@@ -326,19 +314,16 @@
                                     Book This Package
                                 </a>
                             </div>
-
                         </div>
 
                     </div>
                 </div>
-
             </div>
         </section>
 
         <!-- Sample Itinerary Showcase -->
         <section id="itinerary" class="py-20 bg-cream">
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                
                 <div class="text-center space-y-4 mb-16">
                     <span class="text-terracotta uppercase text-xs tracking-widest font-bold">Suggested Route</span>
                     <h2 class="text-3xl sm:text-4xl font-serif-title font-bold text-charcoal">
@@ -349,10 +334,7 @@
                     </p>
                 </div>
 
-                <!-- Timeline Container -->
                 <div class="relative border-l-2 border-terracotta/30 ml-4 sm:ml-32 space-y-12">
-                    
-                    <!-- Item 1 -->
                     <div class="relative pl-8 sm:pl-10 group">
                         <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-terracotta border-4 border-cream"></div>
                         <div class="hidden sm:block absolute -left-32 top-0 text-xs font-bold text-terracotta uppercase tracking-wider">
@@ -365,7 +347,6 @@
                         </div>
                     </div>
 
-                    <!-- Item 2 -->
                     <div class="relative pl-8 sm:pl-10 group">
                         <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-terracotta border-4 border-cream"></div>
                         <div class="hidden sm:block absolute -left-32 top-0 text-xs font-bold text-terracotta uppercase tracking-wider">
@@ -378,7 +359,6 @@
                         </div>
                     </div>
 
-                    <!-- Item 3 -->
                     <div class="relative pl-8 sm:pl-10 group">
                         <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-terracotta border-4 border-cream"></div>
                         <div class="hidden sm:block absolute -left-32 top-0 text-xs font-bold text-terracotta uppercase tracking-wider">
@@ -391,7 +371,6 @@
                         </div>
                     </div>
 
-                    <!-- Item 4 -->
                     <div class="relative pl-8 sm:pl-10 group">
                         <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-terracotta border-4 border-cream"></div>
                         <div class="hidden sm:block absolute -left-32 top-0 text-xs font-bold text-terracotta uppercase tracking-wider">
@@ -404,7 +383,6 @@
                         </div>
                     </div>
 
-                    <!-- Item 5 -->
                     <div class="relative pl-8 sm:pl-10 group">
                         <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-terracotta border-4 border-cream"></div>
                         <div class="hidden sm:block absolute -left-32 top-0 text-xs font-bold text-terracotta uppercase tracking-wider">
@@ -417,7 +395,6 @@
                         </div>
                     </div>
 
-                    <!-- Item 6 -->
                     <div class="relative pl-8 sm:pl-10 group">
                         <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-terracotta border-4 border-cream"></div>
                         <div class="hidden sm:block absolute -left-32 top-0 text-xs font-bold text-terracotta uppercase tracking-wider">
@@ -429,9 +406,7 @@
                             <p class="text-softGray text-sm mt-1">Unwind with afternoon snacks at a sunset spot before smooth drop-off back to your Ferry Terminal or Hotel.</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
@@ -468,20 +443,15 @@
                                 </select>
                             </div>
 
-                            <!-- Preferred Day -->
+                            <!-- Interactive Date Picker (Real-time Dynamic Calendar) -->
                             <div>
-                                <label class="block text-xs font-semibold uppercase text-charcoal mb-2">Preferred Day (Weekend)</label>
-                                <select id="inputDay" class="w-full bg-cream border border-warmSand rounded-xl p-3 text-sm focus:outline-none focus:border-terracotta">
-                                    <option value="Saturday">Saturday</option>
-                                    <option value="Sunday">Sunday</option>
-                                </select>
+                                <label for="tanggal-reservasi" class="block text-xs font-semibold uppercase text-charcoal mb-2">
+                                    Tanggal Reservasi *
+                                </label>
+                                <input type="date" id="tanggal-reservasi" name="tanggal_reservasi" onchange="onDateChange()" class="w-full bg-cream border border-warmSand rounded-xl p-3 text-sm focus:outline-none focus:border-terracotta font-sans">
                             </div>
                         </div>
 
-<div class="mb-4">
-  <label for="tanggal-reservasi" class="block text-sm font-medium text-gray-700 mb-1">Tanggal Reservasi</label>
-  <input type="date" id="tanggal-reservasi" name="tanggal_reservasi" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-</div>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <!-- Full Name -->
                             <div>
@@ -530,81 +500,87 @@
 
                     </div>
 
-                   <!-- Live Summary & WhatsApp Button (Right) -->
-<div class="lg:col-span-5 bg-charcoal text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-6 sticky top-28">
-    <h3 class="text-lg font-bold font-serif-title border-b border-gray-700 pb-3 flex items-center justify-between">
-        <span>Summary & Transfer Details</span>
-        <span class="text-xs font-normal text-sage bg-sage/20 px-2 py-0.5 rounded">Live Calc</span>
-    </h3>
+                    <!-- Live Summary & WhatsApp Button (Right) -->
+                    <div class="lg:col-span-5 bg-charcoal text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-6 sticky top-28">
+                        <h3 class="text-lg font-bold font-serif-title border-b border-gray-700 pb-3 flex items-center justify-between">
+                            <span>Summary & Transfer Details</span>
+                            <span class="text-xs font-normal text-sage bg-sage/20 px-2 py-0.5 rounded">Live Calc</span>
+                        </h3>
 
-    <div class="space-y-3 text-sm text-gray-300">
-        <div class="flex justify-between">
-            <span>Rate Per Pax:</span>
-            <span>IDR 1,000,000</span>
-        </div>
-        <div class="flex justify-between">
-            <span>Jumlah Tamu:</span>
-            <span id="summaryPaxText" class="font-semibold text-white">2 Pax</span>
-        </div>
-        
-        <div class="border-t border-gray-700 pt-3 space-y-1">
-            <div class="flex justify-between items-baseline">
-                <span class="font-semibold text-white">Total Harga (IDR):</span>
-                <span id="summaryTotalIDR" class="text-xl font-bold font-serif-title text-terracotta">IDR 2,000,000</span>
-            </div>
-            <div class="flex justify-between text-xs text-gray-400">
-                <span>Estimasi (SGD):</span>
-                <span id="summaryTotalSGD">~ SGD 169.49</span>
-            </div>
-            <div class="flex justify-between text-xs text-gray-400">
-                <span>Estimasi (MYR):</span>
-                <span id="summaryTotalMYR">~ MYR 555.56</span>
-            </div>
-        </div>
+                        <div class="space-y-3 text-sm text-gray-300">
+                            <div class="flex justify-between">
+                                <span>Tanggal Tour:</span>
+                                <span id="summaryDateText" class="font-semibold text-terracotta">Belum Dipilih</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Rate Per Pax:</span>
+                                <span>IDR 1,000,000</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Jumlah Tamu:</span>
+                                <span id="summaryPaxText" class="font-semibold text-white">2 Pax</span>
+                            </div>
+                            
+                            <div class="border-t border-gray-700 pt-3 space-y-1">
+                                <div class="flex justify-between items-baseline">
+                                    <span class="font-semibold text-white">Total Harga (IDR):</span>
+                                    <span id="summaryTotalIDR" class="text-xl font-bold font-serif-title text-terracotta">IDR 2,000,000</span>
+                                </div>
+                                <div class="flex justify-between text-xs text-gray-400">
+                                    <span>Estimasi (SGD):</span>
+                                    <span id="summaryTotalSGD">~ SGD 141.41</span>
+                                </div>
+                                <div class="flex justify-between text-xs text-gray-400">
+                                    <span>Estimasi (MYR):</span>
+                                    <span id="summaryTotalMYR">~ MYR 448.33</span>
+                                </div>
+                            </div>
 
-        <!-- Rincian Transfer Di Awal (DP 30%) -->
-        <div class="bg-gray-800/90 p-4 rounded-xl border border-terracotta/40 space-y-2 mt-4">
-            <div class="text-xs font-bold text-terracotta uppercase tracking-wider flex items-center gap-1.5">
-                <i class="fa-solid fa-wallet"></i> Transfer Di Awal (DP 30% Deposit)
-            </div>
-            <div class="text-xs text-gray-300 space-y-1">
-                <div class="flex justify-between">
-                    <span>Deposit (IDR):</span>
-                    <strong id="dpIDR" class="text-white">IDR 600,000</strong>
+                            <!-- Rincian Transfer Di Awal (DP 30%) -->
+                            <div class="bg-gray-800/90 p-4 rounded-xl border border-terracotta/40 space-y-2 mt-4">
+                                <div class="text-xs font-bold text-terracotta uppercase tracking-wider flex items-center gap-1.5">
+                                    <i class="fa-solid fa-wallet"></i> Transfer Di Awal (DP 30% Deposit)
+                                </div>
+                                <div class="text-xs text-gray-300 space-y-1">
+                                    <div class="flex justify-between">
+                                        <span>Deposit (IDR):</span>
+                                        <strong id="dpIDR" class="text-white">IDR 600,000</strong>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Deposit (SGD):</span>
+                                        <strong id="dpSGD" class="text-sage">~ SGD 42.42</strong>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Deposit (MYR):</span>
+                                        <strong id="dpMYR" class="text-sage">~ MYR 134.50</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 bg-gray-800/50 rounded-xl text-xs text-gray-400 space-y-1 border border-gray-700">
+                            <p class="flex items-center gap-1.5 text-sage">
+                                <i class="fa-solid fa-shield-halved"></i> Pembayaran DP dilakukan di awal via Transfer / PayNow / Wise untuk mengunci slot weekend. Sisa pelunasan dibayar saat kedatangan.
+                            </p>
+                        </div>
+
+                        <button onclick="sendToWhatsapp()" class="w-full py-4 bg-terracotta hover:bg-terracottaDark text-white font-semibold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Kirim Booking & Transfer DP via WA</span>
+                        </button>
+
+                        <p class="text-[11px] text-center text-gray-400">
+                            Format rincian data & info transfer akan otomatis terkirim ke WhatsApp.
+                        </p>
+                    </div>
+
                 </div>
-                <div class="flex justify-between">
-                    <span>Deposit (SGD):</span>
-                    <strong id="dpSGD" class="text-sage">~ SGD 50.85</strong>
-                </div>
-                <div class="flex justify-between">
-                    <span>Deposit (MYR):</span>
-                    <strong id="dpMYR" class="text-sage">~ MYR 166.67</strong>
-                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="p-3 bg-gray-800/50 rounded-xl text-xs text-gray-400 space-y-1 border border-gray-700">
-        <p class="flex items-center gap-1.5 text-sage">
-            <i class="fa-solid fa-shield-halved"></i> Pembayaran DP dilakukan di awal via Transfer / PayNow / Wise untuk mengunci slot weekend. Sisa pelunasan dibayar saat kedatangan.
-        </p>
-    </div>
-
-    <button onclick="sendToWhatsapp()" class="w-full py-4 bg-terracotta hover:bg-terracottaDark text-white font-semibold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
-        <i class="fa-brands fa-whatsapp text-xl"></i>
-        <span>Kirim Booking & Transfer DP via WA</span>
-    </button>
-
-    <p class="text-[11px] text-center text-gray-400">
-        Format rincian data & info transfer akan otomatis terkirim ke WhatsApp.
-    </p>
-</div>
         </section>
 
         <!-- FAQ & Data Privacy Guarantee -->
         <section id="faq" class="py-20 bg-white">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                
                 <div class="text-center space-y-4 mb-14">
                     <span class="text-terracotta uppercase text-xs tracking-widest font-bold">Good to Know</span>
                     <h2 class="text-3xl font-serif-title font-bold text-charcoal">
@@ -613,8 +589,6 @@
                 </div>
 
                 <div class="space-y-6">
-                    
-                    <!-- FAQ Item 1 -->
                     <div class="bg-cream p-6 rounded-2xl border border-warmSand space-y-2">
                         <h4 class="font-bold text-charcoal text-base flex items-center gap-2">
                             <i class="fa-solid fa-lock text-terracotta"></i>
@@ -625,7 +599,6 @@
                         </p>
                     </div>
 
-                    <!-- FAQ Item 2 -->
                     <div class="bg-cream p-6 rounded-2xl border border-warmSand space-y-2">
                         <h4 class="font-bold text-charcoal text-base flex items-center gap-2">
                             <i class="fa-solid fa-arrows-rotate text-sage"></i>
@@ -636,7 +609,6 @@
                         </p>
                     </div>
 
-                    <!-- FAQ Item 3 -->
                     <div class="bg-cream p-6 rounded-2xl border border-warmSand space-y-2">
                         <h4 class="font-bold text-charcoal text-base flex items-center gap-2">
                             <i class="fa-solid fa-wallet text-terracotta"></i>
@@ -646,9 +618,7 @@
                             For Singaporean / International guests, we accept Wise (TransferWise), PayNow (via partnered local accounts), or Direct Bank Transfer. Remaining balance can be paid in Cash (SGD/IDR) upon arrival.
                         </p>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
@@ -657,7 +627,6 @@
     <!-- Footer -->
     <footer class="bg-charcoal text-white py-12 border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-            
             <div class="flex items-center justify-center gap-2">
                 <div class="w-8 h-8 rounded-full bg-terracotta flex items-center justify-center text-white font-serif-title font-bold text-sm">
                     TG
@@ -675,100 +644,127 @@
         </div>
     </footer>
 
-    <!-- JavaScript Logic for Price Calculator & WhatsApp Generation -->
-<script>
-    // Konstanta Harga & Kurs Mata Uang (IDR, SGD, MYR)
-    const IDR_PER_PAX = 1000000;
-    const RATE_SGD = 14143; // 1 SGD = 14,143 IDR
-    const RATE_MYR = 4461;  // 1 MYR = 4,461 IDR
-    const DEPOSIT_PERCENTAGE = 0.30; // DP 30% di awal
+    <!-- JavaScript Logic -->
+    <script>
+        const IDR_PER_PAX = 1000000;
+        const RATE_SGD = 14143; 
+        const RATE_MYR = 4461;  
+        const DEPOSIT_PERCENTAGE = 0.30; 
 
-    function calculatePrice() {
-        const pax = parseInt(document.getElementById('inputPax').value) || 2;
-        
-        // Total Harga
-        const totalIDR = pax * IDR_PER_PAX;
-        const totalSGD = (totalIDR / RATE_SGD).toFixed(2);
-        const totalMYR = (totalIDR / RATE_MYR).toFixed(2);
-
-        // Jumlah DP 30% Transfer di Awal
-        const dpIDR = totalIDR * DEPOSIT_PERCENTAGE;
-        const dpSGD = (dpIDR / RATE_SGD).toFixed(2);
-        const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
-
-        // Update Ringkasan UI
-        document.getElementById('summaryPaxText').innerText = pax + ' Pax';
-        document.getElementById('summaryTotalIDR').innerText = 'IDR ' + totalIDR.toLocaleString('id-ID');
-        document.getElementById('summaryTotalSGD').innerText = '~ SGD ' + totalSGD;
-        document.getElementById('summaryTotalMYR').innerText = '~ MYR ' + totalMYR;
-
-        // Update Informasi DP Transfer
-        document.getElementById('dpIDR').innerText = 'IDR ' + dpIDR.toLocaleString('id-ID');
-        document.getElementById('dpSGD').innerText = '~ SGD ' + dpSGD;
-        document.getElementById('dpMYR').innerText = '~ MYR ' + dpMYR;
-    }
-
-    function sendToWhatsapp() {
-        const name = document.getElementById('inputName').value.trim();
-        const passport = document.getElementById('inputPassport').value.trim();
-        const nationality = document.getElementById('inputNationality').value.trim();
-        const whatsapp = document.getElementById('inputWhatsapp').value.trim();
-        const pickup = document.getElementById('inputPickup').value.trim();
-        const emergency = document.getElementById('inputEmergency').value.trim();
-        const notes = document.getElementById('inputNotes').value.trim();
-        const pax = document.getElementById('inputPax').value;
-        const day = document.getElementById('inputDay').value;
-
-        // Validasi input wajib
-        if (!name || !passport || !nationality || !whatsapp || !pickup) {
-            alert('Mohon lengkapi semua kolom wajib (Nama, No. Paspor, Kewarganegaraan, WhatsApp, & Lokasi Penjemputan).');
-            return;
+        // Set batas minimum tanggal di kalender (Hari Ini) secara otomatis saat halaman dimuat
+        function initCalendar() {
+            const dateInput = document.getElementById('tanggal-reservasi');
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            
+            const minDate = `${yyyy}-${mm}-${dd}`;
+            dateInput.setAttribute('min', minDate);
+            dateInput.value = minDate; // Default set ke hari ini
+            onDateChange();
         }
 
-        const totalIDR = pax * IDR_PER_PAX;
-        const totalSGD = (totalIDR / RATE_SGD).toFixed(2);
-        const totalMYR = (totalIDR / RATE_MYR).toFixed(2);
+        function onDateChange() {
+            const dateVal = document.getElementById('tanggal-reservasi').value;
+            const summaryDate = document.getElementById('summaryDateText');
+            if(dateVal) {
+                const dateObj = new Date(dateVal + 'T00:00:00');
+                const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                summaryDate.innerText = dateObj.toLocaleDateString('id-ID', options);
+            } else {
+                summaryDate.innerText = 'Belum Dipilih';
+            }
+        }
 
-        const dpIDR = totalIDR * DEPOSIT_PERCENTAGE;
-        const dpSGD = (dpIDR / RATE_SGD).toFixed(2);
-        const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
+        function calculatePrice() {
+            const pax = parseInt(document.getElementById('inputPax').value) || 2;
+            
+            const totalIDR = pax * IDR_PER_PAX;
+            const totalSGD = (totalIDR / RATE_SGD).toFixed(2);
+            const totalMYR = (totalIDR / RATE_MYR).toFixed(2);
 
-        // Format Pesan WhatsApp
-        const message = 
+            const dpIDR = totalIDR * DEPOSIT_PERCENTAGE;
+            const dpSGD = (dpIDR / RATE_SGD).toFixed(2);
+            const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
+
+            document.getElementById('summaryPaxText').innerText = pax + ' Pax';
+            document.getElementById('summaryTotalIDR').innerText = 'IDR ' + totalIDR.toLocaleString('id-ID');
+            document.getElementById('summaryTotalSGD').innerText = '~ SGD ' + totalSGD;
+            document.getElementById('summaryTotalMYR').innerText = '~ MYR ' + totalMYR;
+
+            document.getElementById('dpIDR').innerText = 'IDR ' + dpIDR.toLocaleString('id-ID');
+            document.getElementById('dpSGD').innerText = '~ SGD ' + dpSGD;
+            document.getElementById('dpMYR').innerText = '~ MYR ' + dpMYR;
+        }
+
+        function sendToWhatsapp() {
+            const dateVal = document.getElementById('tanggal-reservasi').value;
+            const name = document.getElementById('inputName').value.trim();
+            const passport = document.getElementById('inputPassport').value.trim();
+            const nationality = document.getElementById('inputNationality').value.trim();
+            const whatsapp = document.getElementById('inputWhatsapp').value.trim();
+            const pickup = document.getElementById('inputPickup').value.trim();
+            const emergency = document.getElementById('inputEmergency').value.trim();
+            const notes = document.getElementById('inputNotes').value.trim();
+            const pax = document.getElementById('inputPax').value;
+
+            if (!dateVal) {
+                alert('Mohon pilih Tanggal Reservasi terlebih dahulu.');
+                return;
+            }
+
+            if (!name || !passport || !nationality || !whatsapp || !pickup) {
+                alert('Mohon lengkapi semua kolom wajib (Nama, No. Paspor, Kewarganegaraan, WhatsApp, & Lokasi Penjemputan).');
+                return;
+            }
+
+            const dateObj = new Date(dateVal + 'T00:00:00');
+            const formattedDate = dateObj.toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+            const totalIDR = pax * IDR_PER_PAX;
+            const totalSGD = (totalIDR / RATE_SGD).toFixed(2);
+            const totalMYR = (totalIDR / RATE_MYR).toFixed(2);
+
+            const dpIDR = totalIDR * DEPOSIT_PERCENTAGE;
+            const dpSGD = (dpIDR / RATE_SGD).toFixed(2);
+            const dpMYR = (dpIDR / RATE_MYR).toFixed(2);
+
+            const message = 
 `*[PEMESANAN TOUR - BATAM TRAVELMATE]*\n` +
 `----------------------------------------\n` +
 `*DATA PEMESAN:* \n` +
+`• Tanggal Reservasi: *${formattedDate}*\n` +
 `• Nama Lengkap: ${name}\n` +
 `• No. Paspor: ${passport}\n` +
 `• Kewarganegaraan: ${nationality}\n` +
 `• No. WhatsApp: ${whatsapp}\n` +
-`• Hari Pilihan: ${day}\n` +
 `• Jumlah Peserta: ${pax} Pax\n` +
 `• Lokasi Penjemputan: ${pickup}\n` +
 `• Kontak Darurat: ${emergency || '-'}\n` +
-`• Permintaan Khusus/Catatan: ${notes || '-'}\n\n` +
+`• Catatan Khusus: ${notes || '-'}\n\n` +
 `*RINCIAN BIAYA & TOTAL:* \n` +
-`• Total Paket (IDR): IDR ${totalIDR.toLocaleString('id-ID')}\n` +
-`• Estimasi (SGD): SGD ${totalSGD}\n` +
-`• Estimasi (MYR): MYR ${totalMYR}\n\n` +
+`• Total Paket: IDR ${totalIDR.toLocaleString('id-ID')} (~SGD ${totalSGD})\n\n` +
 `*INFO TRANSFER DP DI AWAL (30%):*\n` +
 `• DP Rupiah (IDR): *IDR ${dpIDR.toLocaleString('id-ID')}*\n` +
 `• DP Dollar SG (SGD): *SGD ${dpSGD}*\n` +
 `• DP Ringgit MY (MYR): *MYR ${dpMYR}*\n` +
 `----------------------------------------\n` +
-`Hello Kak Tia & Ghea, I would like to confirm the reservation for this tour package. Please send over your bank account or PayNow details for the deposit payment. Thank you`;
+`Halo Kak Tia & Ghea, saya ingin mengonfirmasi reservasi tour untuk tanggal *${formattedDate}*. Mohon kirimkan detail rekening/PayNow untuk pembayaran DP. Terima kasih!`;
 
-        const encodedMessage = encodeURIComponent(message);
-        const targetNumber = "6287867293391";; // Nomor WhatsApp Tujuan Anda
+            const encodedMessage = encodeURIComponent(message);
+            
+            // Nomor WA Tujuan (Direct Send)
+            const targetNumber = "6287867293391"; 
 
-        // Redirection ke WA Anda
-        window.open(`https://wa.me/${targetNumber}?text=${encodedMessage}`, '_blank');
-    }
+            // Buka aplikasi WhatsApp langsung dengan pesan pre-filled
+            window.open(`https://wa.me/${targetNumber}?text=${encodedMessage}`, '_blank');
+        }
 
-    // Jalankan kalkulasi otomatis saat halaman dimuat
-    window.onload = function() {
-        calculatePrice();
-    };
-</script>
+        window.onload = function() {
+            initCalendar();
+            calculatePrice();
+        };
+    </script>
 </body>
 </html>
